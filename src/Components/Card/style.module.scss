@@ -1,0 +1,88 @@
+.card{
+ width: 20%;
+ display: flex;
+ flex-direction: column;
+ border: 1px solid #EEEEEE;
+ 
+ .title{
+    color: white;
+    border: 1px solid #EEEEEE;
+    h2{
+       font-weight: 400; 
+       font-family: sans-serif;
+    }
+    
+ }
+ .price{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        display: flex;
+        height: 70%;
+        
+        p{
+            color: white;
+            font-size: 18px;
+        }
+        .number{
+            font-size: 60px;
+            align-self: center;
+            justify-self: center;
+        }
+        p:last-of-type{
+            align-self: flex-end;
+        }
+    }
+ }
+ .info{
+    color: #525252;
+    font-size: 16px;
+    .info_top{
+        background-color: #F8F8FA;
+        p{
+            padding: 10px 5px;
+        }
+    }
+    .info_bottom{
+        background-color: #EEEEEE;
+        p{
+            padding: 15px 10px;
+        }
+    }
+}
+}
+.title.blue{
+    background-color: #229bab;
+}
+.price.blue{
+    background-color: #2AC2D5;
+}
+
+.title.green{
+    background-color: #1D8A72;
+}
+.price.green{
+    background-color: #24AE8D;
+}
+
+.title.red{
+    background-color: #C5534E;
+}
+.price.red{
+    background-color: #F46A5D;
+}
+
+.title.black{
+    background-color: #293038;
+}
+.price.black{
+    background-color: #333A44;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    box-shadow: 10px 10px 10px 5px #0000004c;
+}
